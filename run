@@ -1,0 +1,10 @@
+#/bin/bash
+mkdir build
+cd build
+gcc -c ../*.c
+gcc *.o -o sd
+./sd
+ls -l
+cd ..
+rm -rf build
+exit
